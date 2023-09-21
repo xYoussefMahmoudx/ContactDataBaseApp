@@ -51,7 +51,7 @@ fun AddContactDialog(
                         }
                     )
                     TextField(
-                        value =state.fName ,
+                        value =state.pNumber ,
                         onValueChange ={
                             onEvent(ContactEvent.SetPNumber(it))
                         } ,
